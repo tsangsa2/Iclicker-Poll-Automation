@@ -39,41 +39,55 @@ This tool is not designed or intended for academic dishonesty. It is provided as
 - Python dependencies:
   ```bash
   pip install selenium requests
-File Structure
-python
-Copy
-Edit
+  ```
+
+---
+
+## File Structure
+
+```
 project/
 ├── main.py                  # Main automation script
 ├── credentials.json         # Stores login and configuration data
 └── bin/
     ├── chrome.exe           # Optional: Portable Chrome browser
     └── chromedriver.exe     # ChromeDriver for automation
-Usage
-Clone or download the project.
+```
 
-Place chrome.exe and chromedriver.exe inside the bin directory, or modify the script to use your system’s Chrome installation.
+---
 
-Run the script:
+## Usage
 
-bash
-Copy
-Edit
-python main.py
-Enter your iClicker credentials, OpenAI API key, and polling interval when prompted.
+1. Clone or download the project.
+2. Place `chrome.exe` and `chromedriver.exe` inside the `bin` directory, or modify the script to use your system’s Chrome installation.
+3. Run the script:
+   ```bash
+   python main.py
+   ```
+4. Enter your iClicker credentials, OpenAI API key, and polling interval when prompted.
 
 The program will automatically monitor your classes and handle polls accordingly.
 
-Important Notice on Responsible Use
+---
+
+## Important Notice on Responsible Use
+
 This project is provided for:
 
-Assisting students with accessibility needs
-
-Supporting real-time participation during live or asynchronous sessions
-
-Educational demonstration of automation and AI integration in academic tools
+- Assisting students with accessibility needs
+- Supporting real-time participation during live or asynchronous sessions
+- Educational demonstration of automation and AI integration in academic tools
 
 By using this software, you agree to comply with your institution’s academic integrity policies. The developer does not condone or support cheating or misuse of the platform. You are solely responsible for how you use this tool.
 
-License
+---
+
+## License
+
 This project is licensed under the MIT License. You may use, modify, and distribute the code for personal or educational purposes. Commercial use is not permitted without express permission.
+
+---
+
+## Contact
+
+For technical inquiries or improvement suggestions, feel free to open an issue or submit a pull request.
